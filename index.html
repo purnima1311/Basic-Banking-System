@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Banking System</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body onload="loader()">
+  <div id="loading"></div>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <i class="fas fa-university" style="font-size: 50px;"></i>
+        <a class="navbar-brand" href="index.html" style="box-sizing: border-box;">SGMC Bank</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit" style="color: darkseagreen;"><i class="fa fa-search"></i></button>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Bank Customer.html">Customers</a>
+            </li>
+            <li class="dropdown">
+              <button class="dropbtn"> Country</button>
+              <div class="dropdown-content">
+              <a href="#">India</a>
+              <a href="#">Bahrain</a>
+              <a href="#">Canada</a>
+              <a href="#">Germany</a>
+              <a href="#">Singapore</a>
+              <a href="#">UK</a>
+              <a href="#">US</a>
+              <a href="#">Yemen</a>
+            </div>
+            </li>
+          </ul>
+        </div>
+    </nav> <br> <br>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 style="text-align: center; font-weight: bold; text-transform: capitalize; text-shadow: 2px 2px 5px grey;">Welcome here!</h2>
+              <marquee behavior="slide" direction="left">The system is simple, easy and efficient. Beginners will be able to adapt to the system very easily.The greatest benefit of the service is that you can use at any time from anywhere and it is free of cost.
+              </marquee>
+              <img src="container.jpg" style="height: 550px;" class="d-block w-100" alt="Container; ">
+            </div>
+          </div><br><br>
+
+  <section id="promo">
+    <div class="container">
+      <img src="bitcoin.jpg" style="height: 550px; border-radius: 15px 150px;" class="d-block w-100" alt="Container;" style="background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1));">
+
+      <p>Perfect Method For Money Transfer</p>
+      <a class="get-started"  href="Bank Customer.html">Get Started</a>
+    </div> <br> <br>
+  </section>
+  <section id="about">
+      <div class="container">
+        <h1 style="text-align: center; text-decoration: underline; padding: 10px; color: darkslategrey;">About Us</h1> <br> <br>
+          <div class="row">
+            <p style="text-align: center; color: rgb(92, 109, 112);">A bank is a financial institution that accepts deposits from the public and creates a demand deposit while simultaneously making loans.Lending activities can be directly performed by the bank or indirectly through capital markets.
+              Bank accounts are safe
+              Your money will be protected from theft and fires. Plus, your money will be federally insured so if your bank or credit union closes, you will get your money back.
+              Banks and credit unions can help you access credit to acquire a home, a car, student or personal loan, because banks tend to favor existing customers, particularly those who manage their money well. Plus, going to small loan lenders that lend you cash quickly can be quite expensive because they charge lending fees and high interest rates.
+              While bank accounts are preferred over check cashers and piggy banks, banks will also have fees that you should be aware of. For example, banks will charge you if you use your debit card on an ATM that is not theirs. Also, depending on the type of account you have, you must maintain a minimum balance of a certain amount to avoid being charged. It's always best to shop around for the best product that fits your needs.
+            </p>   
+          </div>  
+          </div>
+      </div> <br> <br>
+  </section>
+  <section id="services">
+      <div class="container">
+          <h2>Ways to Bank</h2>
+          <div class="row services">
+            <div class="col-md-3 text-center">
+                  <div class="icon">
+                    <i class="fas fa-money-check"></i>
+                  </div>
+                  <h3>Doorstep Banking</h3>
+                  <p>Safe and easy cheque and cash pickup and Delivery</p>
+              </div>
+              <div class="col-md-3 text-center">
+                <div class="icon">
+                  <i class="fas fa-mobile"></i>
+                </div>
+                <h3>Mobile Banking</h3>
+                <p>100+ transactions on a variety of phones and tablets</p>
+            </div>
+            <div class="col-md-3 text-center">
+              <div class="icon">
+                <i class="fab fa-cc-amazon-pay"></i>
+              </div>
+              <h3>Credit Card</h3>
+              <p>Amazing deals and Rewards</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="icon">
+              <i class="fas fa-hand-holding-usd"></i>
+            </div>
+          <h3>Loans</h3>
+            <p>Wide range of financial products at low interest rates</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <div class="icon">
+            <i class="fas fa-home"></i>
+          </div>
+        <h3>Insurance</h3>
+          <p>Wide coverage and affordable premium services</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class="icon">
+          <i class="fas fa-coins"></i>
+        </div>
+      <h3>NRI Deposits</h3>
+        <p>Taking our relationship beyond Borders</p>
+    </div>
+  </div>
+</div>
+</section>
+<hr> <br>
+  
+  <section id="contact">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <br> <br>
+      <div class="row">
+        <div class="col-md-6">
+          <h3 style="font-size: 19px;">General Enquries</h3>
+          <div class="icon-img">
+            <i class="fas fa-phone-alt" style="font-size: 14px;"></i>
+          </div>
+          <p style="font-size: 14px;">1800 103 1906 (Tollfree) / 1800 220 229 (Tollfree - Covid Support) /<br> (022) – 40919191 (chargeable number) 24 X 7</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+    <footer>
+      <hr>
+      <div class="row text-center">
+        <div class="col-md-6 text-center">
+            <ul class="social-icons">
+              Contact Me:
+              <li><a target="_blank" class="github" href="https://github.com/purnima1311"><i class="fab fa-github fa-2x"></i></a></li>
+              
+              <li><a target="_blank" class="linkedin" href="https://www.linkedin.com/in/purnima-sharma-aa2551191/"><i class="fab fa-linkedin fa-2x"></i></a></li>   
+
+              <li><a target="_blank" class="gmail" href="https://mail.google.com/"><i class="fas fa-mail-bulk fa-2x"></i></a></li>
+
+            </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="lfooter" style="font-style:unset; text-align: center; color: white; background-color: black;">
+      © Copyright SGMC Bank Ltd. &emsp;  Terms and Conditions Apply  &emsp;  Privacy Policy
+    </div>
+    
+    <script>
+      var preloader = document.getElementById("loading");
+      function loader(){
+        preloader.style.display = 'none';
+      }
+    </script>
+
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+      });
+    </script>
+    
+</body>
+</html>
